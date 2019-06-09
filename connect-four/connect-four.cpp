@@ -10,8 +10,8 @@ using namespace std;
 
 /*---CONSTANTS--*/
 #define LEN 20 //maximum length of the name
-#define R 7 //rows
-#define C 7 //colums
+#define R 7 //rows of the playing field
+#define C 7 //colums of the playing field
 
 /*---PROTOTYPES---*/
 void menu();
@@ -26,11 +26,6 @@ void selector(unsigned short color);
 void check_playing_field(char m[][C], int i, int j, int player_code, bool *flag_win, char name_player_1[], char name_player_2[]);
 void insert_token_animation(char m[][C], int i, int c, bool players, char name_player_1[], char name_player_2[]);
 void settings();
-
-/*---GLOBAL VARIABLES---*/
-// TODO: i have not to use global variables
-
-
 
 int main()
 {
